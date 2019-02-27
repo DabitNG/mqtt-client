@@ -61,8 +61,10 @@
     "all": true
   },
   "dependencies": {
+    "@types/dotenv": "^6.1.0",
     "@types/node": "^11.9.5",
     "@types/sinon": "^7.0.7",
+    "dotenv": "^6.2.0",
     "mqtt": "^2.18.8"
   }
 }
