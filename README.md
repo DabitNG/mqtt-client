@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/DabitNG/mqtt-client.svg?branch=master)](https://travis-ci.org/DabitNG/mqtt-client)
 [![Build Status](https://travis-ci.org/DabitNG/mqtt-client.svg?branch=develop)](https://travis-ci.org/DabitNG/mqtt-client)
+[![Code Coverage](https://codecov.io/gh/DabitNG/mqtt-client/branch/master/graph/badge.svg)](https://codecov.io/gh/DabitNG/mqtt-client)
 
 # MQTT Client example
 This project is an example of a MQTT client app.
