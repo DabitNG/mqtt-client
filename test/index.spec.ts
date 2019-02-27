@@ -1,8 +1,21 @@
 import * as chai from 'chai';
 import 'mocha';
+import * as index from '../src/index';
+import * as sinon from 'sinon';
 
-describe('Basic test suite', () => {
-    it('Basic test case', () => {
-        chai.assert(true);
+
+
+describe('Index.js test suite', () => {
+
+    it('connected should be called once', () => {
+        const stub = sinon.stub(index, "connected");
+        stub.restore();
+        sinon.assert.calledOnce;
+    });
+
+    it('disconnect should be called once', () => {
+        const stub = sinon.stub(index, "disconnect");
+        stub.restore();
+        sinon.assert.calledOnce;       
     });
 });
