@@ -1,5 +1,5 @@
 {
-  "name": "node-starter",
+  "name": "mqtt-client",
   "version": "1.0.0",
   "description": "NodeJS project with TS + Mocha + Chai + NYC + TravisCI + Codecov",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DabitNG/node-starter.git"
+    "url": "git+https://github.com/DabitNG/mqtt-client.git"
   },
   "keywords": [],
   "author": "DabitNG",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DabitNG/node-starter/issues"
+    "url": "https://github.com/DabitNG/mqtt-client/issues"
   },
-  "homepage": "https://github.com/DabitNG/node-starter#readme",
+  "homepage": "https://github.com/DabitNG/mqtt-client#readme",
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
@@ -27,6 +27,7 @@
     "codecov": "^3.2.0",
     "mocha": "^6.0.2",
     "nyc": "^13.3.0",
+    "sinon": "^7.2.4",
     "ts-node": "^8.0.2",
     "typescript": "^3.3.3333"
   },
@@ -58,5 +59,12 @@
     ],
     "cache": true,
     "all": true
+  },
+  "dependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^11.9.5",
+    "@types/sinon": "^7.0.7",
+    "dotenv": "^6.2.0",
+    "mqtt": "^2.18.8"
   }
 }
